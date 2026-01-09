@@ -1,0 +1,9 @@
+{
+  "val_loss": 0.006988639960234816,
+  "test_loss": 0.013351739278880718,
+  "subset_accuracy": 0.9411764705882353,
+  "precision_macro": 0.8785353302955627,
+  "recall_macro": 0.9166666865348816,
+  "precision_micro": 0.9444444179534912,
+  "recall_micro": 1.0
+}
