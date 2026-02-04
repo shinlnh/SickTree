@@ -1,0 +1,75 @@
+# TEST CASES FOR MODEL CONFUSION
+# These data points are very similar but belong to different classes
+
+
+======================================================================
+TEST CASE 1: Chuẩn 1 vs Chuẩn 2
+Distance: 43.58
+======================================================================
+
+# From Chuẩn 1 [row 151]:
+python infer_mlp_calibrated.py --r 86.40 --ec 14.32 --t 28.03 --h 68.55 --co2 905 --lux 24.56 --sound 78.17 --soil 70.15 --temperature 2.5
+
+# From Chuẩn 2 [row 26]:
+python infer_mlp_calibrated.py --r 71.10 --ec 19.68 --t 28.36 --h 71.55 --co2 932 --lux 9.32 --sound 66.35 --soil 47.20 --temperature 2.5
+
+
+======================================================================
+TEST CASE 2: Chuẩn 1 vs Chuẩn 2
+Distance: 44.76
+======================================================================
+
+# From Chuẩn 1 [row 151]:
+python infer_mlp_calibrated.py --r 86.40 --ec 14.32 --t 28.03 --h 68.55 --co2 905 --lux 24.56 --sound 78.17 --soil 70.15 --temperature 2.5
+
+# From Chuẩn 2 [row 25]:
+python infer_mlp_calibrated.py --r 70.50 --ec 19.80 --t 28.42 --h 71.80 --co2 928 --lux 9.21 --sound 66.50 --soil 41.70 --temperature 2.5
+
+
+======================================================================
+TEST CASE 3: Chuẩn 1 vs Chuẩn 2
+Distance: 45.28
+======================================================================
+
+# From Chuẩn 1 [row 151]:
+python infer_mlp_calibrated.py --r 86.40 --ec 14.32 --t 28.03 --h 68.55 --co2 905 --lux 24.56 --sound 78.17 --soil 70.15 --temperature 2.5
+
+# From Chuẩn 2 [row 28]:
+python infer_mlp_calibrated.py --r 72.30 --ec 19.44 --t 28.24 --h 71.05 --co2 940 --lux 9.23 --sound 66.05 --soil 55.60 --temperature 2.5
+
+
+======================================================================
+TEST CASE 4: Chuẩn 1 vs Chuẩn 3
+Distance: 13.51
+======================================================================
+
+# From Chuẩn 1 [row 65]:
+python infer_mlp_calibrated.py --r 44.09 --ec 29.19 --t 31.71 --h 88.47 --co2 927 --lux 104.24 --sound 47.68 --soil 76.10 --temperature 2.5
+
+# From Chuẩn 3 [row 100]:
+python infer_mlp_calibrated.py --r 47.40 --ec 26.45 --t 29.80 --h 83.40 --co2 928 --lux 95.60 --sound 45.20 --soil 68.90 --temperature 2.5
+
+
+======================================================================
+TEST CASE 5: Chuẩn 1 vs Chuẩn 3
+Distance: 14.36
+======================================================================
+
+# From Chuẩn 1 [row 66]:
+python infer_mlp_calibrated.py --r 45.18 --ec 28.22 --t 31.57 --h 87.66 --co2 935 --lux 104.78 --sound 39.44 --soil 75.88 --temperature 2.5
+
+# From Chuẩn 3 [row 101]:
+python infer_mlp_calibrated.py --r 47.46 --ec 26.44 --t 29.82 --h 83.30 --co2 932 --lux 94.10 --sound 41.60 --soil 68.85 --temperature 2.5
+
+
+======================================================================
+TEST CASE 6: Chuẩn 1 vs Chuẩn 3
+Distance: 15.54
+======================================================================
+
+# From Chuẩn 1 [row 66]:
+python infer_mlp_calibrated.py --r 45.18 --ec 28.22 --t 31.57 --h 87.66 --co2 935 --lux 104.78 --sound 39.44 --soil 75.88 --temperature 2.5
+
+# From Chuẩn 3 [row 100]:
+python infer_mlp_calibrated.py --r 47.40 --ec 26.45 --t 29.80 --h 83.40 --co2 928 --lux 95.60 --sound 45.20 --soil 68.90 --temperature 2.5
+
